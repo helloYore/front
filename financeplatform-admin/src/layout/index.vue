@@ -19,13 +19,14 @@
 </template>
 
 <script>
+//引入子组件
 import { Navbar, Sidebar, AppMain } from './components'
 import ResizeMixin from './mixin/ResizeHandler'
 
 export default {
   name: 'Layout',
   components: {
-    //注册组件 其实是简写了 可以写作
+    //注册子组件 其实是简写了 可以写作
     // Navbar: Navbar,
     Navbar,
     Sidebar,
